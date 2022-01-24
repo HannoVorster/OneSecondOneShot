@@ -1,0 +1,16 @@
+.bg-about {
+  background-image: url("../../../assets/background-about.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  font-family: 'Baskervville', serif;
+  font-size: 12vw;
+}
+
+div {
+    font-family: 'Baskervville', serif;
+}

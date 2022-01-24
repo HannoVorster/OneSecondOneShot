@@ -1,0 +1,16 @@
+{
+  "name": "onesecondoneshot-backend",
+  "version": "1.0.0",
+  "description": "Node.js for onesecondoneshot.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hanno Vorster",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

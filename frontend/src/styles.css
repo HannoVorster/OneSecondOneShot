@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~animate.css/animate.min';
+
+body, html {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 12vw;
+}
+
+.btn-color {
+  background-color: #0B2E3C;
+  color: white
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1) 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0B2E3C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0B2E3C;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
